@@ -15,6 +15,9 @@ Requirements: Django
 5. Setup MongoDb: 
 a) Create a database on mongodb
 b) Go to settings.py in your django project and change Database configurations:
+
+
+
 DATABASES =  {
     'default': {
         'ENGINE': 'djongo',
@@ -22,6 +25,9 @@ DATABASES =  {
 
     }
 }
+
+
+
   c) python manage.py makemigrations shop
   d) python manage.py migrate
   e)create user: python manage.py createsuperuser
