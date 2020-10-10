@@ -13,8 +13,7 @@ router.register(r'users', views.UserViewSet)
 router.register(r'products', views.ProductViewSet)
 router.register(r'carts', views.CartViewSet)
 router.register(r'cart_items', views.CartItemViewSet)
-router.register(r'orders', views.OrderViewSet)
-router.register(r'order_items', views.OrderItemViewSet)
+
 
 # Wire up the API using automatic URL routing
 # Also include login URLs for the browsable API
