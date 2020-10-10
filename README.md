@@ -34,12 +34,25 @@ DATABASES =  {
   
  f) runserver: python manage.py runserver
  
+ 
  Instructions: 1. This is a CRUD Rest Api Project
  
+ 
+ 
+ 
  -> Login user credentials :http://127.0.0.1:8000/
+ 
+ 
  ->add new user: http://127.0.0.1:8000/users/       (json PUT from django rest framework)
+ 
+ 
  -> Add products: http://127.0.0.1:8000/products/ (json PUT from django rest framework)
+ 
+ 
  ->add cart: /carts/<card_id>/add_to_cart/
+ 
+ 
+ 
  --> remove cart: /carts/<card_id>/remove_from_cart/ 
  
  
