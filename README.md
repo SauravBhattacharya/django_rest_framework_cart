@@ -1,19 +1,48 @@
 # django_rest_framework_cart
 
 -->How to run the project on your computer
+
+
+
+
 Requirements: Django
+
               Djongo (for mongodb)
+              
+              
               Djangorestframework
+              
+              
               MongoDb
               
 1.Clone the repository
+
+
 2.pip install all the requirements
+
+
 3.Download MongoDb
-4.for fresh start type the following codes on terminal >> rm -f db.sqlite3
+
+
+4.for fresh start type the following codes on terminal >> 
+
+
+rm -f db.sqlite3
+
+
+
                                                           rm -r shop/migrations
                                                           
+                                                          
+                                                          
 5. Setup MongoDb: 
+
+
 a) Create a database on mongodb
+
+
+
+
 b) Go to settings.py in your django project and change Database configurations:
 
 
