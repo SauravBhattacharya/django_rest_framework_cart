@@ -5,7 +5,9 @@
 
 
 
-Requirements: Django
+Requirements: 
+               
+              Django
 
               Djongo (for mongodb)
               
@@ -27,7 +29,7 @@ Requirements: Django
 4.for fresh start type the following codes on terminal >> 
 
 
-rm -f db.sqlite3
+                                                           rm -f db.sqlite3
 
 
 
@@ -47,18 +49,29 @@ b) Go to settings.py in your django project and change Database configurations:
 
 
 
-DATABASES =  {
+
+
+
+
+DATABASES =  
+
+
+{
+
     'default': {
         'ENGINE': 'djongo',
         'NAME': '<write_your database name>',
 
     }
+    
 }
 
 
 
   c) python manage.py makemigrations shop
+  
   d) python manage.py migrate
+  
   e)create user: python manage.py createsuperuser
   
  f) runserver: python manage.py runserver
